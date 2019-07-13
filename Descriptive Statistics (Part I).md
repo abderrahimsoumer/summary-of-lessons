@@ -22,3 +22,10 @@ We can think of quantitative data as being either **continuous** or **discrete**
 **Continuous** data can be split into smaller and smaller units, and still a smaller unit exists. An example of this is the age of the dog - we can measure the units of the age in years, months, days, hours, seconds, but there are still smaller units that could be associated with the age.
 
 **Discrete** data only takes on countable values. The number of dogs we interact with is an example of a discrete data type.
+
+| Data Types      ||                 	                                                       	|
+|---------------	|-----------------------------	|-------------------------------------------------------	|
+| Quantitative: 	| Continuous                  	| Discrete                                              	|
+|               	| Height, Age, Income         	| Pages in a Book, Trees in Yard, Dogs at a Coffee Shop 	|
+| Categorical:  	| Ordinal                     	| Nominal                                               	|
+|               	| Letter Grade, Survey Rating 	| Gender, Marital Status, Breakfast Items               	|
