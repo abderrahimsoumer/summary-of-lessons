@@ -55,3 +55,29 @@ We might have the random variable X, which is a holder for the possible values o
 
 X is 'a holder' of the values that could possibly occur for the amount of time spent on our website. Any number from 0 to infinity really.
 
+## Capital vs. Lower Case Letters
+
+**Random variables** are represented by capital letters. Once we observe an outcome of these random variables, we notate it as a lower case of the same letter.
+
+## Notation for Calculating the Mean
+
+We know that the mean is calculated as the sum of all our values divided by the number of values in our dataset.
+
+In our current notation, adding all of our values together can be extremely tedious. If we want to add 3 values of some random variable together, we would use the notation:
+
+x1 + x2 + x3 
+
+If we want to add 6 values together, we would use the notation:
+
+x1 + x2 + x3 + x4 + x5 + x6
+
+To extend this to add one hundred, one thousand, or one million values would be ridiculous! How can we make this easier to communicate?!
+
+## Aggregations
+
+An **aggregation** is a way to turn multiple numbers into fewer numbers (commonly one number).
+
+**Summation** is a common aggregation. The notation used to sum our values is a greek symbol called sigma Σ.
+
+## Other Aggregations
+The Σ sign is used for aggregating using summation, but we might choose to aggregate in other ways. Summing is one of the most common ways to need to aggregate. However, we might need to aggregate in alternative ways. If we wanted to multiply all of our values together we would use a product sign Π , capital Greek letter pi. The way we aggregate continuous values is with something known as integration (a common technique in calculus), which uses the following symbol ∫ which is just a long s. We will not be using integrals or products for quizzes in this class, but you may see them in the future!
