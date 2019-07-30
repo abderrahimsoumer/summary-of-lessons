@@ -40,3 +40,25 @@ If we have an **even** number of observations, the **median** is the **average o
 In order to compute the median we MUST sort our values first.
 
 Whether we use the mean or median to describe a dataset is largely dependent on the **shape** of our dataset and if there are any **outliers**. We will talk about this in just a bit!
+
+## The Mode
+
+The **mode** is the most frequently observed value in our dataset.
+
+There might be multiple modes for a particular dataset, or no mode at all.
+
+### No Mode
+
+If all observations in our dataset are observed with the same frequency, there is no mode. If we have the dataset:
+
+1, 1, 2, 2, 3, 3, 4, 4
+
+There is no mode, because all observations occur the same number of times.
+
+### Many Modes
+
+If two (or more) numbers share the maximum value, then there is more than one mode. If we have the dataset:
+
+1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 7, 8, 9
+
+There are two modes 3 and 6, because these values share the maximum frequencies at 3 times, while all other values only appear once.
