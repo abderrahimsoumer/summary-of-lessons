@@ -81,3 +81,26 @@ An **aggregation** is a way to turn multiple numbers into fewer numbers (commonl
 
 ## Other Aggregations
 The Σ sign is used for aggregating using summation, but we might choose to aggregate in other ways. Summing is one of the most common ways to need to aggregate. However, we might need to aggregate in alternative ways. If we wanted to multiply all of our values together we would use a product sign Π , capital Greek letter pi. The way we aggregate continuous values is with something known as integration (a common technique in calculus), which uses the following symbol ∫ which is just a long s. We will not be using integrals or products for quizzes in this class, but you may see them in the future!
+
+
+## Notation Recap
+Notation is an essential tool for communicating mathematical ideas. We have introduced the fundamentals of notation in this lesson that will allow you to read, write, and communicate with others using your new skills!
+
+### Notation and Random Variables
+As a quick recap, **capital letters** signify **random variables**. When we look at **individual instances** of a particular random variable, we identify these as **lowercase letters** with subscripts attach themselves to each specific observation.
+
+For example, we might have **X** be the amount of time an individual spends on our website. Our first visitor arrives and spends 10 minutes on our website, and we would say **x1** is 10 minutes.
+
+We might imagine the random variables as columns in our dataset, while a particular value would be notated with the lower case letters.
+
+
+![Notation exemple](./Notation exemple.PNG "Notation exemple")
+
+
+### Notation for the Mean
+We took our notation even farther by introducing the notation for summation \sum∑. Using this we were able to calculate the mean as:
+
+![Notation exemple](./the mean notation.PNG "the mean notation")
+
+In the next section, you will see this notation used to assist in your understanding of calculating various measures of spread. Notation can take time to fully grasp. Understanding notation not only helps in conveying mathematical ideas, but also in writing computer programs - if you decide you want to learn that too! Soon you will analyze data using spreadsheets. When that happens, many of these operations will be hidden by the functions you will be using. But until we get to spreadsheets, it is important to understand how mathematical ideas are commonly communicated. This isn't easy, but you can do it!
+
