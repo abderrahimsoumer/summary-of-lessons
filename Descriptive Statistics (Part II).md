@@ -38,3 +38,9 @@ The **range** is then calculated as the difference between the **maximum** and t
 The **interquartile range** is calculated as the difference between **Q3** and **Q1**.
 
 In the upcoming sections, you will practice this with Katie and on your own.
+
+## Standard Deviation and Variance
+
+The **standard deviation** is one of the most common measures for talking about the spread of data. It is defined as **the average distance of each observation from the mean.**
+
+In the above video we saw this as how far individuals were from the average distance from work (the example distances shown are examples from the full data set, the mean of just those 4 numbers is 38.5. The mean of 18 shown later in the video is the mean of the full data set which is not shown in the video). In the next video, you will see exactly how this is calculated.
