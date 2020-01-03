@@ -97,3 +97,37 @@ Composition occurs when simple functions are combined together to create more co
 **Further Research**
 - [Compose me That: Function Composition in JavaScript](https://www.linkedin.com/pulse/compose-me-function-composition-javascript-kevin-greene)
 - [Functional JavaScript: Function Composition For Every Day Use](https://hackernoon.com/javascript-functional-composition-for-every-day-use-22421ef65a10)
+
+
+## Declarative Code
+
+In contrast to imperative code, we've got **declarative code**. With declarative code, we don't code up all of the steps to get us to the end result. Instead, we declare what we want done, and JavaScript will take care of doing it. This explanation is a bit abstract, so let's look at an example. Let's take the imperative `for` loop code we were just looking at and refactor it to be more declarative.
+
+With the imperative code we were performing all of the steps to get to the end result. What is the end result that we actually want, though? Well, our starting point was just an array of names:
+
+````javascript
+const people = ['Amanda', 'Geoff', 'Michael', 'Richard', 'Ryan', 'Tyler']
+````
+
+The end goal that we want is an array of the same names but where each name ends with an exclamation mark:
+
+````javascript
+["Amanda!", "Geoff!", "Michael!", "Richard!", "Ryan!", "Tyler!"]
+````
+
+To get us from the starting point to the end, we'll just use JavaScript's `.map()` function to declare what we want done.
+
+````javascript
+const excitedPeople = people.map(name => name + '!')
+````
+
+That's it! Notice that with this code we haven't:
+
+- created an iterator object
+- told the code when it should stop running
+- used the iterator to access a specific item in the `people` array
+- stored each new string in the `excitedPeople` array
+
+…all of those steps are taken care of by JavaScript's `.map()` Array method.
+
+
