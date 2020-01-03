@@ -130,4 +130,13 @@ That's it! Notice that with this code we haven't:
 
 …all of those steps are taken care of by JavaScript's `.map()` Array method.
 
+## Unidirectional Data Flow
+
+**Data-Binding In Other Frameworks**
+
+Front-end frameworks like [Angular](https://angular.io/) and [Ember](https://emberjs.com/) make use of two-way data bindings. In two-way data binding, the data is kept in sync throughout the app no matter where it is updated. If a model changes the data, then the data updates in the view. Alternatively, if the user changes the data in the view, then the data is updated in the model. Two-way data binding sounds really powerful, but it can make the application harder to reason about and know where the data is actually being updated.
+
+**React's Data-flow**
+
+Data moves differently with React's unidirectional data flow. In React, the data flows from the parent component to a child component.
 
