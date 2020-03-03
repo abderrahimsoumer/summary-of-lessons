@@ -49,3 +49,19 @@ There are several benefits to the cloud.
 # Amazon Web Services is a Market Leader
 There are several popular cloud platforms; however, Amazon Web Services (AWS) leads the public cloud infrastructure by currently holding the highest market share and the largest number of data centers and services. AWS routinely adds new services and invests billions of dollars in the overall platform and infrastructure.
 
+# Shared Responsibility Model
+AWS is responsible for security **OF** the cloud, we are responsible for security **IN** the cloud.
+![shared responbility model](./shared-responbility-model.PNG)
+
+## Examples
+### AWS is responsible for:
+- Securing edge locations
+- Monitoring physical device security
+- Providing physical access control to hardware/software
+- Database patching
+- Discarding physical storage devices
+### You are responsible for:
+- Managing AWS Identity and Access Management (IAM)
+- Encrypting data
+- Preventing or detecting when an AWS account has been compromised
+- Restricting access to AWS services to only those users who need it
