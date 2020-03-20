@@ -6,7 +6,7 @@ Servers in the cloud have revolutionized the IT industry.
 - Obtain servers in minutes.
 - No need for onsite hardware or capital expenses.
 
-# Elastic Cloud Compute
+# Elastic Cloud Compute (EC2)
 Elastic Cloud Compute or EC2 is a foundational piece of AWS' cloud computing platform and is a service that provides servers for rent in the cloud.
 
 ## Pricing Options
@@ -23,3 +23,9 @@ Reserved Instances - You earn huge discounts if you pay up front and sign a 1-ye
 
 - There are several instance types that provide varying combinations of CPU, memory, storage, and networking capacity.
 
+# Elastic Block Store (EBS)
+
+Elastic Block Store (EBS) is a storage solution for EC2 instances and is a physical hard drive that is attached to the EC2 instance to increase storage.
+## Tips
+- EBS is found on the EC2 Dashboard.
+- There are several EBS volume types that fall under the categories of Solid State Drives (SSD) and Hard Disk Drives (HDD).
