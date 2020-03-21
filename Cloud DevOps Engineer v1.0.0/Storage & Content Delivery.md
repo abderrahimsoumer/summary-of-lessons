@@ -34,3 +34,29 @@ DynamoDB is a NoSQL document database service that is fully managed. Unlike trad
 - DynamoDB supports key-value and document data models.
 - DynamoDB synchronously replicates data across three AZs in an AWS Region.
 - DynamoDB supports GET/PUT operations using a primary key.
+
+### Relational Database Service (RDS)
+RDS (or Relational Database Service) is a service that aids in the administration and management of databases. RDS assists with database administrative tasks that include upgrades, patching, installs, backups, monitoring, performance checks, security, etc. 
+#### Database Engine Support
+- Oracle
+- PostgreSQL
+- MySQL
+- MariaDB
+- SQL Server
+#### Features
+- failover
+- backups
+- restore
+- encryption
+- security
+- monitoring
+- data replication
+- scalability
+#### Redshift
+Redshift is a cloud data warehousing service to help companies manage big data. Redshift allows you to run fast queries against your data using SQL, ETL, and BI tools. Redshift stores data in a column format to aid in fast querying.
+#### Tips
+- Redshift can be found under the Database section on the AWS Management Console.
+- Redshift delivers great performance by using machine learning.
+- Redshift Spectrum is a feature that enables you to run queries against data in Amazon S3.
+- Redshift encrypts and keeps your data secure in transit and at rest.
+- Redshift clusters can be isolated using Amazon Virtual Private Cloud (VPC).
