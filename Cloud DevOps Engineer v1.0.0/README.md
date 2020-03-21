@@ -7,4 +7,5 @@
   - [Exercice - Create and execute a Lambda](./Lab%20-%20Create%20and%20execute%20a%20Lambda.md)
   - [Exercice - Deploy App to Beanstalk](./Lab%20-%20Deploy%20App%20to%20Beanstalk.md)
 - [Storage & Content Delivery](./Storage%20%26%20Content%20Delivery.md)
+  - [Exercice - DynamoDB](./Lab%20-%20DynamoDB.md)
 
