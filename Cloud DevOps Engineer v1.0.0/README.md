@@ -9,4 +9,6 @@
 - [Storage & Content Delivery](./Storage%20%26%20Content%20Delivery.md)
   - [Exercice - DynamoDB](./Lab%20-%20DynamoDB.md)
   - [Exercice - RDS](./Lab%20-%20RDS.md)
+- [Security](./Security.md)
+  - [Exercice - IAM](./Lab%20-%20IAM.md)
 
