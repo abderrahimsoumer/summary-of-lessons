@@ -8,4 +8,5 @@
   - [Exercice - Deploy App to Beanstalk](./Lab%20-%20Deploy%20App%20to%20Beanstalk.md)
 - [Storage & Content Delivery](./Storage%20%26%20Content%20Delivery.md)
   - [Exercice - DynamoDB](./Lab%20-%20DynamoDB.md)
+  - [Exercice - RDS](./Lab%20-%20RDS.md)
 
