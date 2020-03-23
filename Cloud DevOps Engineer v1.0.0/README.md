@@ -11,4 +11,5 @@
   - [Exercice - RDS](./Lab%20-%20RDS.md)
 - [Security](./Security.md)
   - [Exercice - IAM](./Lab%20-%20IAM.md)
+- [Networking & Elasticity](./05_Networking%20%26%20Elasticity.md)
 
