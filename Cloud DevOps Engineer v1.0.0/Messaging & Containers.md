@@ -31,3 +31,24 @@ Amazon Simple Queue Service (SQS) is a fully managed message queuing service tha
   - FIFO queues guarantee the ordering of messages.
   - Standard queues offer best-effort ordering but no guarantees.
   - Standard queues deliver a message at least once, but occasionally more than one copy of a message is delivered.
+  
+# Containers in the Cloud
+Enterprises are adopting container technology at an explosive rate. A container consists of everything an application needs to run: the application itself and its dependencies (e.g. libraries, utilities, configuration files), all bundled into one package. 
+
+Each container is an independent component that can run on its own and be moved from environment to environment.
+
+** We will be going more in-depth on the topic of Microservices in Course 4: Microservices at Scale using AWS & Kubernetes**
+  - [General overview about Docker containers](https://docs.docker.com/engine/docker-overview/)
+  - [Documentation on Docker Containers](https://www.docker.com/resources/what-container)
+# Elastic Container Service (ECS)
+ECS is an orchestration service used for automating deployment, scaling, and managing of your containerized applications. ECS works well with Docker containers by:
+  - launching and stopping Docker containers
+  - scaling your applications
+  - querying the state of your applications
+## Tips
+  - ECS is under the Compute section on the AWS Management Console.
+  - You can schedule long-running applications, services, and batch processeses using ECS.
+  - Docker is the only container platform supported by Amazon ECS.
+
+
+
