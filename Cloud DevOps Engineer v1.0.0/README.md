@@ -13,4 +13,6 @@
   - [Exercice - IAM](./Lab%20-%20IAM.md)
 - [Networking & Elasticity](./05_Networking%20%26%20Elasticity.md)
   - [Exercice - EC2 Auto Scaling](./Lab%20-%20EC2%20Auto%20Scaling.md)
+- [Messaging & Containers](./Messaging%20%26%20Containers.md)
+  - [Exercice - SNS](./Lab%20-%20SNS.md)
 
