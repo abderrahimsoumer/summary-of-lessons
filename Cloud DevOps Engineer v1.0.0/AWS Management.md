@@ -41,6 +41,12 @@ AWS Cloud Formation allows you to model your entire infrastructure in a text fil
   - Cloud Formation is found under the Management & Governance section on the AWS Management Console.
   - Cloud Formation templates are written using JSON or YAML. 
   - You can still individually manage AWS resources that are part of a CloudFormation stack.
+ 
+# AWS Command Line Interface (CLI)
+The AWS CLI (or Command Line Interface) allows you to access and control services running in your AWS account from the command line. To use the CLI, simply download, install, and configure it. 
+## Tips
+  - The AWS CLI allows you to work with AWS services in a programmatic manner
+  
   
 
   
