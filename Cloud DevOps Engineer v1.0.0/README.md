@@ -15,4 +15,7 @@
   - [Exercice - EC2 Auto Scaling](./Lab%20-%20EC2%20Auto%20Scaling.md)
 - [Messaging & Containers](./Messaging%20%26%20Containers.md)
   - [Exercice - SNS](./Lab%20-%20SNS.md)
+- [AWS Management](./AWS%20Management.md)
+  - [Cloud Formation](./Lab%20-%20Cloud%20Formation.md)
+  - [Cloud Wactch](./Lab%20-%20Cloud Watch.md)
 
