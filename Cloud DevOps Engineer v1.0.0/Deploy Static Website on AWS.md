@@ -16,4 +16,14 @@
 the interface changed in 2020 the interface looks like this
 ![2020 interface bucket](./img/s3bucket-creation2020.png)
 
+## # Upload files to S3 Bucket
+1. Once the bucket is open to its contents, click the “Upload” button.
+![Upload files](./img/upload-s3bucket-files.png)
+
+2. Click the “Add Files” button and drag and drop files and folders from your local computer to the S3 bucket and select “Upload”. Note: Upload the downloaded student-ready starter code files.
+![Add files](./img/add-files.png)
+![Drag files](./img/drag-files.png)
+![Upload added files](./img/upload-add-files.png)
+
+
 
