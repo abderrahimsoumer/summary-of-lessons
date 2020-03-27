@@ -55,3 +55,20 @@ You will see warnings about making your bucket public, but this step is required
 2. Click on “Use this bucket to host a website”.
 ![use to Host website](./img/s3bucket-use-to-host-website.png)
 3. For both “Index document” and “Error document”, enter “index.html” and click “Save”.
+
+## Distribute Website via CloudFront
+1. Select “Services” from the top left corner and enter “cloud front” in the “Find a service by name or feature” text box and select “CloudFront”.
+![CloudFront](./img/cloudfront.png)
+2. From the CloudFront dashboard, click “Create Distribution”.
+![Create distribution](./img/cloudfront-create-distribution.png)
+3. For “Select a delivery method for your content”, click “Get Started”.
+![Select Delivery method](./img/cloudfront-select-delivery-methode.png)
+4. Under “Origin Settings”:
+  - Under “Origin Domain Name”, select the S3 bucket that you just created.
+  - Under “Origin Path”, enter “/” to indicate the root level.
+![Origin Setting](./img/cloudfront-origin-setting.png)
+5. Leave the defaults for the rest of the options, scroll down, and click “Create Distribution”.
+**Note:** It may take up to **10 minutes** for the CloudFront Distribution to be created.
+
+6.Once the status of your distribution changes from “In Progress” to “Deployed”, copy the endpoint URL for your CloudFront distribution found in the “Domain Name” column.
+[CloudFront distribution](./img/cloudfront-distributions.png)
