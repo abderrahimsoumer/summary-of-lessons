@@ -25,5 +25,30 @@ the interface changed in 2020 the interface looks like this
 ![Drag files](./img/drag-files.png)
 ![Upload added files](./img/upload-add-files.png)
 
+## Secure Bucket via IAM
+1. Click on the “Permissions” tab.
+![s3 permission pollicy ](./img/s3-permission-pollicy.png)
+2. Click on “Bucket Policy” and enter the bucket policy below replacing “your-website” with the name of your bucket and click “Save”.
+```JSON
+{
+  "Version":"2012-10-17",
+  "Statement":[
+    {
+      "Sid":"AddPerm",
+      "Effect":"Allow",
+      "Principal": "*",
+      "Action":["s3:GetObject"],
+      "Resource":["arn:aws:s3:::your-website/*"]
+    }
+  ]
+}
+```
+![Bucket pollicy](./bucket-pollicy.png)
+
+You will see warnings about making your bucket public, but this step is required for static website hosting.
+
+![Warning public bucket](./img/warn-public-bucket.png)
+
+
 
 
