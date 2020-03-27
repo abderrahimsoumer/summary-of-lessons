@@ -17,5 +17,7 @@
   - [Exercice - SNS](./Lab%20-%20SNS.md)
 - [AWS Management](./AWS%20Management.md)
   - [Cloud Formation](./Lab%20-%20Cloud%20Formation.md)
-  - [Cloud Wactch](./Lab%20-%20Cloud Watch.md)
+  - [Cloud Wactch](./Lab%20-%20Cloud%20Watch.md)
+- [Project: Deploy Static Website on AWS](./Deploy%20Static%20Website%20on%20AWS.md)
+
 
