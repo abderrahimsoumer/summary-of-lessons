@@ -14,7 +14,7 @@
 ![S3 Done](./img/s3-done.png)
 
 the interface changed in 2020 the interface looks like this
-![2020 interface bucket](./img/s3bucket-creation2020.png)
+![2020 interface bucket](./img/s3bucket-creation2020.PNG)
 
 ## # Upload files to S3 Bucket
 1. Once the bucket is open to its contents, click the “Upload” button.
@@ -67,8 +67,19 @@ You will see warnings about making your bucket public, but this step is required
   - Under “Origin Domain Name”, select the S3 bucket that you just created.
   - Under “Origin Path”, enter “/” to indicate the root level.
 ![Origin Setting](./img/cloudfront-origin-setting.png)
+
 5. Leave the defaults for the rest of the options, scroll down, and click “Create Distribution”.
 **Note:** It may take up to **10 minutes** for the CloudFront Distribution to be created.
 
-6.Once the status of your distribution changes from “In Progress” to “Deployed”, copy the endpoint URL for your CloudFront distribution found in the “Domain Name” column.
+6. Once the status of your distribution changes from “In Progress” to “Deployed”, copy the endpoint URL for your CloudFront distribution found in the “Domain Name” column.
 [CloudFront distribution](./img/cloudfront-distributions.png)
+
+## # Access Website in Web Browser
+1. Open a web browser like Google Chrome and paste the copied endpoint URL and append “/index.html” on the end, as shown below.
+![Website static](./img/s3bucke-website1.png)
+
+2. The website displays in your browser.
+
+
+
+
