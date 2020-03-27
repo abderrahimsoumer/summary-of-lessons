@@ -25,7 +25,7 @@ the interface changed in 2020 the interface looks like this
 ![Drag files](./img/drag-files.png)
 ![Upload added files](./img/upload-add-files.png)
 
-## Secure Bucket via IAM
+## # Secure Bucket via IAM
 1. Click on the “Permissions” tab.
 ![s3 permission pollicy ](./img/s3-permission-pollicy.png)
 2. Click on “Bucket Policy” and enter the bucket policy below replacing “your-website” with the name of your bucket and click “Save”.
@@ -49,6 +49,9 @@ You will see warnings about making your bucket public, but this step is required
 
 ![Warning public bucket](./img/warn-public-bucket.png)
 
-
-
-
+## # Configure S3 Bucket
+1. Click on the “Properties” tab and then click on “Static website hosting”.
+![s3 bucket properties](./img/s3bucket-properties.png)
+2. Click on “Use this bucket to host a website”.
+![use to Host website](./img/s3bucket-use-to-host-website.png)
+3. For both “Index document” and “Error document”, enter “index.html” and click “Save”.
