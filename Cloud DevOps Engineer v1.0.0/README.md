@@ -1,4 +1,4 @@
-
+# Cloud Fundamentals
 - [Cloud Computing](./Cloud%20Computing.md)
 - [Services](./services.md)
 - [Cloud Jobs](./Cloud_Jobs.md)
@@ -19,5 +19,10 @@
   - [Cloud Formation](./Lab%20-%20Cloud%20Formation.md)
   - [Cloud Wactch](./Lab%20-%20Cloud%20Watch.md)
 - [Project: Deploy Static Website on AWS](./Deploy%20Static%20Website%20on%20AWS.md)
+
+# Deploy Infrastructure as Code (IAC)
+
+- [Getting Started with CloudFormation](./Getting%20Started%20with%20CloudFormation.md)
+
 
 
