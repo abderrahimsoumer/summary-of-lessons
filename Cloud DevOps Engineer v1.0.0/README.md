@@ -23,6 +23,7 @@
 # Deploy Infrastructure as Code (IAC)
 
 - [Getting Started with CloudFormation](./Getting%20Started%20with%20CloudFormation.md)
+- [Infrastructure Diagram](Infrastructure%20Diagram.md)
 
 
 
