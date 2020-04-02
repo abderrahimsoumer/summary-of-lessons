@@ -25,6 +25,7 @@
 - [Getting Started with CloudFormation](./Getting%20Started%20with%20CloudFormation.md)
 - [Infrastructure Diagram](Infrastructure%20Diagram.md)
 - [Networking Infrastructure](Networking%20Infrastructure.md)
+- [Servers and Security Groups](Servers%20and%20Security%20Groups.md)
 
 
 
