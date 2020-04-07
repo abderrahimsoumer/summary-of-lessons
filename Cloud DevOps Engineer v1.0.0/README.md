@@ -28,5 +28,6 @@
 - [Servers and Security Groups](./Servers%20and%20Security%20Groups.md)
 - [Storage and Databases](./Storage%20and%20Databases.md)
 
-
+# Build CI/CD Pipelines, Monitoring & Logging
+  -[Continuous Integration and Continuous Deployment](./Continuous%20Integration%20and%20Continuous%20Deployment.md)
 
