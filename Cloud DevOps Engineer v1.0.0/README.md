@@ -31,4 +31,5 @@
 # Build CI/CD Pipelines, Monitoring & Logging
   - [Continuous Integration and Continuous Deployment](./Continuous%20Integration%20and%20Continuous%20Deployment.md)
   - [Continuous Integration and Continuous Deployment Strategies](./Continuous%20Integration%20and%20Continuous%20Deployment%20Strategies.md)
+    - [Exercice : Deployment Practice.md](./Exercice%20Deployment%20Practice.md)
 
