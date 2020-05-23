@@ -66,3 +66,11 @@ Knowing how to write code that runs efficiently is another essential skill in so
   - Take up less space in memory/storage
   
 The project you're working on would determine which of these is more important to optimize for your company or product. When we are performing lots of different transformations on large amounts of data, this can make orders of magnitudes of difference in performance.
+
+## Documentation
+  - **DOCUMENTATION:** additional text or illustrated information that comes with or is embedded in the code of software.
+  - Helpful for clarifying complex parts of code, making your code easier to navigate, and quickly conveying how and why different components of your program are used.
+  - Several types of documentation can be added at different levels of your program:
+    - **In-line Comments** - line level
+    - **Docstrings** - module and function level
+    - **Project Documentation** - project level
