@@ -132,3 +132,28 @@ class Pants:
         """
         return self.price * (1 - percentage)
 ```
+### Magic Methods
+Dunder or magic methods in Python are the methods having two prefix and suffix underscores in the method name. Dunder here means “Double Under (Underscores)”. These are commonly used for operator overloading. Few examples for magic methods are: `__init__`, `__add__`, `__len__`, `__repr__` etc.
+
+The `__init__` method for initialization is invoked without any call, when an instance of a class is created, like constructors in certain other programming languages such as C++, Java, C#, PHP etc. These methods are the reason we can add two strings with ‘+’ operator without any explicit typecasting.
+
+Here’s a simple implementation :
+```python
+class Gaussian():
+  .
+  .
+  .
+  
+  def __add__(self, other):
+        
+        result = Gaussian()
+        result.mean = self.mean + other.mean
+        result.stdev = math.sqrt(self.stdev ** 2 + other.stdev ** 2)
+        
+        return result
+        
+        
+    def __repr__(self):
+    
+        return "mean {}, standard deviation {}".format(self.mean, self.stdev)
+```
