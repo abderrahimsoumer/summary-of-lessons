@@ -43,4 +43,4 @@
 ### Generative AI
 Generative AI is one of the biggest recent advancements in artificial intelligence technology because of its ability to create something new. It opens the door to an entire world of possibilities for human and computer creativity, with practical applications emerging across industries, from turning sketches into images for accelerated product development, to improving computer-aided design of complex objects. It takes two neural networks against each other to produce new and original digital works based on sample inputs.
 
-[Generative AI](./img/generative-ai.jpg)
+![Generative AI](./img/generative-ai.jpg)
