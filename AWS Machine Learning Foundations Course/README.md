@@ -7,3 +7,4 @@
 - [Making package](./Making-Package.md)
     - [Virtual Environments](./Virtual-Environments.md)
 - [Machine learning with AWS DeepComposer](./ML%20with%20AWS%20DeepComposer.md)
+  - [Generate Interface](./Exercice-Generate-Interface.md)
